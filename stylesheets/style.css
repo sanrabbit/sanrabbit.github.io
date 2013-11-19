@@ -1,0 +1,51 @@
+@font-face {
+  font-family: riesling;
+  src: url("../fonts/riesling.ttf");
+}
+@font-face {
+  font-family: LiberationSerif;
+  src: url("../fonts/LiberationSerif-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.half {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  font-size: 24px;
+  font-family: LiberationSerif;
+}
+.half h1 {
+  font-weight: normal;
+  position: absolute;
+  top: 35%;
+  overflow: hidden;
+}
+.half em {
+  font-size: 100px;
+  font-family: riesling;
+  font-style: normal;
+}
+#san {
+  z-index: 1;
+  left: 0;
+  color: white;
+  background-color: black;
+}
+#rabbit {
+  right: 0;
+  color: black;
+  background-color: white;
+}
+#san h1 {
+  right: 0px;
+  width: 119px;
+  white-space: nowrap;
+}
+#rabbit h1 {
+  left: -35px;
+}
